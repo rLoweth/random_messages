@@ -1,19 +1,19 @@
 const adj = () => {
-    const words = ['greatest', 'smallest', 'fastest', 'rarest'];
+    const words = ['greatest', 'smallest', 'fastest', 'rarest', 'loneliest'];
     let random = Math.floor(Math.random() * (words.length -1));
     let result = words[random];
     return result;
 };
 
 const noun = () => {
-    const words = ['rabbit', 'train', 'helicopter', 'dinosaur', 'whale', 'jewel', 'actor', 'strawberry', 'spoon'];
+    const words = ['rabbit', 'train', 'helicopter', 'dinosaur', 'whale', 'jewel', 'actor', 'strawberry', 'spoon', 'stranger'];
     let random = Math.floor(Math.random() * (words.length -1));
     let result = words[random];
     return result;
 };
 
 const place = () => {
-    const words = ['China', 'the world', 'India', 'Wisconsin', 'the sea', 'outer space', 'reality'];
+    const words = ['China', 'the world', 'India', 'Wisconsin', 'the sea', 'outer space', 'reality', 'MIT'];
     let random = Math.floor(Math.random() * (words.length -1));
     let result = words[random];
     return result;
@@ -29,7 +29,7 @@ const always = () => {
 };
 
 const verb = () => {
-    const words = ['shines', 'speaks true', 'sinks', 'causes pandemoneum'];
+    const words = ['shines', 'speaks true', 'sinks', 'causes pandemoneum', 'cries'];
     let random = Math.floor(Math.random() * (words.length -1));
     let result = words[random];
     return result;
