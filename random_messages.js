@@ -35,6 +35,6 @@ const verb = () => {
     return result;
 };
 
-let string = `The ${adj()} ${noun()} in ${place()} ${always()} ${verb()}`;
+let string = `The ${adj()} ${noun()} in ${place()} ${always()} ${verb()}.`;
 
 console.log(string);
